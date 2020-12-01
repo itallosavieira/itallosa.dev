@@ -63,34 +63,9 @@
             </div>
         </div>
     </header>
+
     <main>
-        <section class="id-section">
-            <!-- <p class="id-quote"> "Discipline is freedom."</p> -->
-            
-            
-            <div class="section-wrapper">
-                
-                <div class="id-img">
-                    <img src="img/perfil.png" alt="Itallo Sá">
-                </div>
-                <p class="id-apresentation">Hi! I'm <em class="id-main-information">Itallo Sá</em>, a
-                    <em class="id-main-information">Front-End Developer</em> who loves <em class="id-main-information">HTML, CSS, and JS.</em>
-                </p>
-
-                <p class="id-apresentation">I like things that challenge me and
-                    I believe that facing them makes us better.
-                </p>
-
-                <p class="id-apresentation">Currently, I do personal projects to
-                    expand my knowledge on web development with a focus on the Front-End.
-                </p>
-                <p class="id-study-link">What am I studying?</p>
-
-            </div>
-        </section>
-
-
-
+        {% block content %} {% endblock %}
     </main>
 
     <footer class="footer">
@@ -111,13 +86,9 @@
                 </a>
             </li>
         </ul>
-
-
-
-
     </footer>
-
+    
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="/index.js"></script>
 </body>
-
 </html>
