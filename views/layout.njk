@@ -70,21 +70,13 @@
 
     <footer class="footer">
         <ul>
+            {% for link in home.links %}
             <li>
-                <a href="https://github.com/itallosavieira" target="_blank">
-                    <i class="fab fa-github"></i>
+                <a href="{{ link.url }}" target="_blank">
+                    <i class="{{ link.icon }}"></i>
                 </a>
             </li>
-            <li>
-                <a href="mailto:hi@itallosa.dev" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-            </li>
-            <li>
-                <a href="mailto:hi@itallosa.dev" target="_blank">
-                    <i class="fas fa-at"></i>
-                </a>
-            </li>
+            {% endfor %}
         </ul>
     </footer>
     
