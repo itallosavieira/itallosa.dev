@@ -6,9 +6,23 @@ body {
     background-color: var(--white);
     color: var(--black);
     font-family: var(--fontFamily-default);
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .container {
-    max-width: 1260px;
-    margin: 0 auto;
+    height: 100vh;
+    padding-left: 17vw;
+    padding-right: 17vw;
+}
+
+@media only screen and (max-width: 1260px) {
+    .container {
+        padding-left: 7vw;
+        padding-right: 7vw;
+    }
+}
+
+.title--default {
+    font-size: 8.125rem;
 }
