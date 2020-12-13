@@ -1,14 +1,20 @@
 .header {
     width: 100%;
-    padding: 2rem 7vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
 }
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (min-width: 0px) {
     .header {
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding: 2rem 1rem;
     }
-} */
+}
+
+@media only screen and (min-width: 480px) {
+    .header {
+        padding: 2rem 7vw;
+    }
+}
+

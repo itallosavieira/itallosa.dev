@@ -5,6 +5,7 @@
     max-width: 99%;
     margin-bottom: 1rem;
 }
+
 @media only screen and (min-width: 0px) {
     .title--default {
         font-size: 3.125rem;
@@ -13,7 +14,7 @@
 
 @media only screen and (min-width: 480px) {
     .title--default {
-        font-size: 5.125rem;
+        font-size: 4.125rem;
     }
 }
 
