@@ -1,0 +1,36 @@
+.title--default {
+    font-family: inherit;
+    font-size: 8.125rem;
+    color: inherit;
+    max-width: 99%;
+    margin-bottom: 1rem;
+}
+@media only screen and (min-width: 0px) {
+    .title--default {
+        font-size: 3.125rem;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .title--default {
+        font-size: 5.125rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .title--default {
+        font-size: 6.125rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .title--default {
+        font-size: 7.125rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .title--default {
+        font-size: 8.125rem;
+    }
+}

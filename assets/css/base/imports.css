@@ -5,7 +5,11 @@
 /* *** Base *** */
 @import url(_reset.css);
 @import url(_variables.css);
-@import url(_general.css);
+
+@import url(./general/_general.css);
+@import url(./general/_container.css);
+@import url(./general/_text.css);
+@import url(./general/_title.css);
 
 
 /* *** Main *** */
@@ -14,17 +18,10 @@
 
 
 /* *** Components *** */
-
 @import url(../components/menu-hamburger/menu-hamburger.css);
 @import url(../components/menu-hamburger/menu-hamburger-icon.css);
 
 @import url(../components/logo/logo.css);
 
 @import url(../components/cover/cover-wrapper.css);
-
-
-
-
-/* 
-@import url(../components/);
-*/
+@import url(../components/cover/cover-occupation.css)

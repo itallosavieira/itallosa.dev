@@ -1,0 +1,5 @@
+.text--default {
+    font-family: var(--fontFamily-text);
+    font-size: 1.125rem;
+    color: var(--grey);
+}
