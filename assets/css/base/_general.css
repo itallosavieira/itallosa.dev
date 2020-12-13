@@ -24,5 +24,27 @@ body {
 }
 
 .title--default {
+    font-family: inherit;
     font-size: 8.125rem;
+    color: inherit;
+    max-width: 99%;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .title--default {
+        font-size: 5.125rem;
+    }
+}
+
+@media only screen and (min-width: 768px and max-width: 1260px) {
+    .title--default {
+        font-size: 7.125rem;
+    }
+}
+
+.text--default {
+    font-family: var(--fontFamily-text);
+    font-size: 1.125rem;
+    color: var(--grey);
 }
