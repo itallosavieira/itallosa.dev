@@ -3,28 +3,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
 
 /* *** Base *** */
-@import url(../_reset/_reset.css);
-@import url(../_variables/_variables.css);
+@import url(../base/_reset.css);
+@import url(../base/_variables.css);
 
-@import url(../_general/_general.css);
-@import url(../_general/_container.css);
-@import url(../_general/_text.css);
-@import url(../_general/_title.css);
-
-
-/* *** Main *** */
-@import url(../cover.css);
-@import url(../header.css);
+@import url(../base/general/_general.css);
+@import url(../base/general/container.css);
+@import url(../base/general/text.css);
+@import url(../base/general/title.css);
 
 
 /* *** Components *** */
+@import url(../components/header/header.css);
+
+@import url(../components/cover/cover.css);
+@import url(../components/cover/cover-wrapper.css);
+@import url(../components/cover/cover-occupation.css);
+
+
 @import url(../components/menu-hamburger/menu-hamburger.css);
 @import url(../components/menu-hamburger/menu-hamburger-icon.css);
 
 @import url(../components/logo/logo.css);
 
-@import url(../components/cover/cover-wrapper.css);
-@import url(../components/cover/cover-occupation.css);
 
 @import url(../components/title-section/title-section.css);
 @import url(../components/title-section/title-section-title.css);
