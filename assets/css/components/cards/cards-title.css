@@ -1,5 +1,5 @@
 .cards__title {
     font-size: 3.75rem;
-    color: #000;
+    color: var(--black);
     margin-bottom: 1.5rem;
 }

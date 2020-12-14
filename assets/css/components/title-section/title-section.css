@@ -1,7 +1,5 @@
 .title-section {
-    font-size: 8.125rem;
-}
-
-.title-section--hello {
-    color: #d8d8d8;
+    color: #f3f3f3;
+    margin-bottom: 20vh;
+    margin: 0 auto;
 }
