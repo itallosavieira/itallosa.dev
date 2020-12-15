@@ -5,10 +5,6 @@
     transition: .4s ease-in-out;
 }
 
-.cards__item:hover {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
 @media only screen and (max-width: 1260px) {
     .cards__item {
         padding: 5vh 7vw;
