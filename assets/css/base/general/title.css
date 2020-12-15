@@ -3,7 +3,9 @@
     font-size: 8.125rem;
     color: inherit;
     max-width: 99%;
-    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
 }
 
 @media only screen and (min-width: 0px) {

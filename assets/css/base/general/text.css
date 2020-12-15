@@ -3,3 +3,17 @@
     font-size: 1.125rem;
     color: var(--grey);
 }
+
+.text--featured {
+    opacity: .5;
+}
+
+.text--paragraph {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.text--list {
+    display: block;
+    margin-bottom: .5rem;
+}

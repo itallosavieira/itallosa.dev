@@ -17,7 +17,6 @@
 
 @import url(../components/cover/cover.css);
 @import url(../components/cover/cover-wrapper.css);
-@import url(../components/cover/cover-occupation.css);
 
 
 @import url(../components/menu-hamburger/menu-hamburger.css);
@@ -25,18 +24,16 @@
 
 @import url(../components/logo/logo.css);
 
-
-@import url(../components/title-section/title-section.css);
-@import url(../components/title-section/title-section-title.css);
-
-@import url(../components/hello/hello.css);
+@import url(../components/resume/resume.css);
 
 @import url(../components/cards/cards.css);
 @import url(../components/cards/cards-item.css);
 @import url(../components/cards/cards-title.css);
 @import url(../components/cards/cards-description.css);
 
-@import url(../components/projects/projects.css)
+@import url(../components/projects/projects.css);
+@import url(../components/projects/projects-item.css);
+
 
 
 
