@@ -1,12 +1,6 @@
 .cards {
-    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
-    padding: 6vh 3vw;
     max-width: 992px;
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 1260px) {
-    .cards {
-        padding: 5vh 7vw;
-    }
-}
+
