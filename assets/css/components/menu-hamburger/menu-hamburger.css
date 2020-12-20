@@ -2,6 +2,15 @@
     display: none;
 }
 
+.menu {
+    display: block;
+}
+
+#menu-hamburger:checked ~ .menu{
+    box-shadow: 0 0 0 100vw var(--white), 0 0 0 100vh var(--white);
+    
+}
+
 #menu-hamburger:checked ~ .menu-hamburger{
     transform: rotate(45deg);
     transition: .3s;
