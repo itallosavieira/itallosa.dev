@@ -2,4 +2,5 @@
     font-size: 3rem;
     font-family: 'Mrs Saint Delafield', sans-serif;
     transform: rotate(-7deg);
+    z-index: 99;
 }

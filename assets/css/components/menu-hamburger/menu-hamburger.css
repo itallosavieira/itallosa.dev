@@ -1,51 +1,64 @@
+.menu {
+    position: absolute;
+    right: 10vw;
+    top: 50vh;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
 #menu-hamburger {
     display: none;
 }
 
-.menu {
-    display: block;
+#menu-hamburger:checked  ~ .menu{
+    opacity: 1;
+    visibility: visible;
 }
 
-#menu-hamburger:checked ~ .menu{
-    box-shadow: 0 0 0 100vw var(--white), 0 0 0 100vh var(--white);
-    
+#menu-hamburger:checked ~ .menu-label {
+    box-shadow: 0 0 0 130vw var(--white), 0 0 0 130vh var(--white);
 }
 
-#menu-hamburger:checked ~ .menu-hamburger{
+
+#menu-hamburger:checked ~ .menu-label {
     transform: rotate(45deg);
     transition: .3s;
 }
 
-#menu-hamburger:checked ~ .menu-hamburger > .menu-hamburger__icon::before {
+#menu-hamburger:checked ~ .menu-label .menu-hamburger:before {
     top: 0;
     transform: rotate(90deg);
     transition: .3s ease-in-out;
 }
 
-#menu-hamburger:checked ~ .menu-hamburger > .menu-hamburger__icon::after {
+#menu-hamburger:checked ~ .menu-label .menu-hamburger::after {
     top: 0;
     transform: rotate(90deg);
     transition: .3s ease-in-out;
 }
 
-.menu-hamburger {
+.menu-label {
     width: 40px;
     height: 30px;
     display: flex;
     justify-content: center;
     position: relative;
     transition: .3s ease-in-out;
+    background-color: var(--white);
 
 }
 
-.menu-hamburger:hover {
+.menu-label:hover {
     cursor: pointer;
 }
 
-.menu-hamburger:hover > .menu-hamburger__icon::before{
+.menu-label:hover > .menu-hamburger::before{
     top: -10.5px;
 }
 
-.menu-hamburger:hover > .menu-hamburger__icon::after{
+.menu-label:hover > .menu-hamburger::after{
     top: 10.5px;
 }

@@ -1,4 +1,4 @@
-.menu-hamburger__icon {
+.menu-hamburger {
     position: absolute;
     display: block;
     background: var(--black);
@@ -7,8 +7,8 @@
     top: 8.5px;
 }
 
-.menu-hamburger__icon:before, 
-.menu-hamburger__icon:after {
+.menu-hamburger:before, 
+.menu-hamburger:after {
     background: var(--black);
     content: '';
     display: block;
@@ -17,11 +17,11 @@
     position: absolute;
 }
 
-.menu-hamburger__icon:before {
+.menu-hamburger:before {
     top: -8.5px;
 }
 
-.menu-hamburger__icon:after {
+.menu-hamburger:after {
     top: 8.5px;
 }
 
