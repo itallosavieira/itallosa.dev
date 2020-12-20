@@ -1,10 +1,10 @@
 .menu-hamburger__icon {
-    position: relative;
+    position: absolute;
     display: block;
     background: var(--black);
     width: 30px;
     height: 3px;
-    top: 3px;
+    top: 8.5px;
 }
 
 .menu-hamburger__icon:before, 
@@ -18,10 +18,10 @@
 }
 
 .menu-hamburger__icon:before {
-    top: 8.5px;
+    top: -8.5px;
 }
 
 .menu-hamburger__icon:after {
-    top: 17px;
+    top: 8.5px;
 }
 
