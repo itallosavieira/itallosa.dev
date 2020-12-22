@@ -1,3 +1,12 @@
+.projects {
+    max-width: 992px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
 .projects__item {
     box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
     width: 200px;

@@ -5,34 +5,21 @@
 /* *** Base *** */
 @import url(../base/_reset.css);
 @import url(../base/_variables.css);
-
-@import url(../base/general/_general.css);
-@import url(../base/general/container.css);
-@import url(../base/general/text.css);
-@import url(../base/general/title.css);
+@import url(../base/_general.css);
+@import url(../base/container.css);
+@import url(../base/text.css);
+@import url(../base/title.css);
 
 
 /* *** Components *** */
-@import url(../components/header/header.css);
-
-@import url(../components/cover/cover.css);
-@import url(../components/cover/cover-wrapper.css);
-
-
-@import url(../components/menu-hamburger/menu-hamburger.css);
-@import url(../components/menu-hamburger/menu-hamburger-icon.css);
-
-@import url(../components/logo/logo.css);
-
-@import url(../components/resume/resume.css);
-
-@import url(../components/cards/cards.css);
-@import url(../components/cards/cards-item.css);
-@import url(../components/cards/cards-title.css);
-@import url(../components/cards/cards-description.css);
-
-@import url(../components/projects/projects.css);
-@import url(../components/projects/projects-item.css);
+@import url(../components/header.css);
+@import url(../components/cover.css);
+@import url(../components/menu-hamburger.css);
+@import url(../components/menu.css);
+@import url(../components/logo.css);
+@import url(../components/resume.css);
+@import url(../components/cards.css);
+@import url(../components/projects.css);
 
 
 

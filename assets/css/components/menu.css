@@ -1,0 +1,10 @@
+.menu {
+    position: absolute;
+    right: 50vw;
+    top: 50vh;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}

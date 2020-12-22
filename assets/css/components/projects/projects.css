@@ -1,8 +1,0 @@
-.projects {
-    max-width: 992px;
-    height: auto;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-}
