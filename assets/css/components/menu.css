@@ -1,10 +1,36 @@
 .menu {
     position: absolute;
-    right: 50vw;
     top: 50vh;
+    left: 50%;
+    transform: translate(-50%);
     opacity: 0;
     visibility: hidden;
     transition: .3s ease-in-out;
     display: flex;
     flex-direction: column;
+    text-align: center;
+}
+
+.menu-email {
+    font-size: 2.5rem;
+    color: var(--grey);
+    margin-top: -2.5rem;
+    transition: .3s ease-in-out;
+}
+
+.menu-email:hover {
+    opacity: .8;
+}
+
+.menu-social {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+
+.menu-social__icon {
+    margin: auto .75rem;
+}
+
+.menu-social__icon:hover {
+    opacity: .8;
 }
